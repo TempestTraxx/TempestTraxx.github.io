@@ -137,4 +137,38 @@ body{
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.85);
     font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
+    margin: 0;
 }
+
+/* Add a black background color to the top navigation */
+.menu {
+    background-color: rgba(255,255,255,.2);
+    overflow: hidden;
+    border: 2px solid rgba(255,255,255,.2);
+    margin: 0;
+
+}
+
+/* Style the links inside the navigation bar */
+.menu a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.menu a:hover {
+    background-color: rgba(255,255,255,.1);
+    color: #ffffff;
+}
+
+/* Add a color to the active/current link */
+.menu a.active {
+    background-color: rgba(255,255,255,.1);
+    color: #ffffff;
+}
+
