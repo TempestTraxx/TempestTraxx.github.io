@@ -1,6 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
-
-
 #nadpis{
     font-size: 30px;
 }
@@ -9,20 +7,14 @@ h1 {
     font-size: 2em;
     font-weight: 300;
 }
-
 p {
     margin: 0 auto;
     width: 390px;
 }
-
 @media only screen and (max-width: 280px) {
-
     body, p {
         width: 95%;
     }
-
-
-
 }
 #maker{
     background-color: rgba(255,255,255,.2);
@@ -36,7 +28,6 @@ p {
     border-radius: 15px;
     text-align: right;
 }
-
 #maker1{
     background-color: rgba(255,255,255,.2);
     font-family: "Trebuchet MS", sans-serif;
@@ -85,7 +76,6 @@ p {
     font-family: "Trebuchet MS", sans-serif;
     font-size: larger;
 }
-
 .img-head{
     width: 30%;
     border-radius: 50%;
@@ -101,7 +91,6 @@ p {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 
 }
-
 #maker:hover {
     -webkit-transform:scale(1.05); /* Safari a Chrome */
     -moz-transform:scale(1.05);    /* Firefox */
@@ -130,7 +119,6 @@ p {
     -o-transform:scale(1.05);      /* Opera */
     transform:scale(1.05);
 }
-
 body{
     background-image: url(../img/bgmars.jpg);
     background-attachment: fixed;
@@ -146,7 +134,6 @@ body{
     overflow: hidden;
     border: 2px solid rgba(255,255,255,.2);
     margin: 0;
-
 }
 
 /* Style the links inside the navigation bar */
@@ -162,13 +149,12 @@ body{
 
 /* Change the color of links on hover */
 .menu a:hover {
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.2);
     color: #ffffff;
 }
 
 /* Add a color to the active/current link */
 .menu a.active {
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.15);
     color: #ffffff;
 }
-
