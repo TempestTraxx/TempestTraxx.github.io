@@ -158,3 +158,19 @@ body{
     background-color: rgba(255,255,255,.15);
     color: #ffffff;
 }
+
+#elon{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: larger;
+    border: 5px solid rgba(255,255,255,.2);
+    border-radius: 15px;
+    background-color: rgba(255,255,255,.2);
+    margin: 100px auto;
+    width: 45%;
+    text-align: center;
+    height: 1470px;
+}
+
+#video{
+    text-align: center;
+}
