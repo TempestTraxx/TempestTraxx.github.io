@@ -167,11 +167,35 @@ body{
     border-radius: 15px;
     background-color: rgba(255,255,255,.2);
     margin: 100px auto;
-    width: 45%;
+    width: 90%;
     text-align: center;
-    height: 1470px;
+    height: 1670px;
 }
 
 #video{
     text-align: center;
+
+}
+
+#elonobrazok{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+
+
+}
+#elonobrazok2{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+#pelon{
+    padding-top: 25px;
 }
