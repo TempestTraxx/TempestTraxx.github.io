@@ -16,80 +16,94 @@ p {
         width: 95%;
     }
 }
+
 #maker{
     background-color: rgba(255,255,255,.2);
     font-family: "Raleway", sans-serif;
-    float: left;
+    float: inherit;
     list-style-type: none;
-    margin: 0 5px;
+    margin: 85px auto;
     width: 300px;
     height: 125px;
     border: 5px solid rgba(255,255,255,.2);
     border-radius: 15px;
     text-align: right;
+    transition:0.5s cubic-bezier(0.2, 0.57, 0.36, 1.36);
 }
 #maker1{
     background-color: rgba(255,255,255,.2);
     font-family: "Trebuchet MS", sans-serif;
     float: left;
     list-style-type: none;
-    margin: 0 5px;
+    margin: -80px 5px;
     width: 300px;
     height: 125px;
     border: 5px solid rgba(255,255,255,.2);
     border-radius: 15px;
     text-align: right;
+    transition:0.5s cubic-bezier(0.2, 0.57, 0.36, 1.36);
 }
 #maker2{
     background-color: rgba(255,255,255,.2);
     font-family: "Trebuchet MS", sans-serif;
     float: left;
+
     list-style-type: none;
-    margin: 0 5px;
+    margin: -80px 325px;
     width: 300px;
     height: 125px;
     border: 5px solid rgba(255,255,255,.2);
     border-radius: 15px;
     text-align: right;
+    transition:0.5s cubic-bezier(0.2, 0.57, 0.36, 1.36);
 
 }
 #maker3{
     background-color: rgba(255,255,255,.2);
     font-family: "Trebuchet MS", sans-serif;
-    float: left;
+    float: right;
     list-style-type: none;
-    margin: 0 5px;
+    margin: -80px 5px;
     width: 300px;
     height: 125px;
     border: 5px solid rgba(255,255,255,.2);
     border-radius: 15px;
     text-align: right;
+    transition:0.5s cubic-bezier(0.2, 0.57, 0.36, 1.36);
 }
 #text{
     background-color: rgba(255,255,255,.2);
-    width: 90%;
+    width: 950px;
     margin: 150px auto;
     height: 400px;
     border: 5px solid rgba(255,255,255,.2);
     border-radius: 15px;
-    text-align: center;
+   /* text-align: justify; */
     font-family: "Trebuchet MS", sans-serif;
-    font-size: larger;
+    font-size: larger;}
+
+h2{
+     text-align: center;
+ }
+p{
+    text-align: justify;
 }
+
+
 .img-head{
     width: 30%;
     border-radius: 50%;
     float: left;
 
 }
-.bg{
+/*.bg{
     background-color: rgba(255,255,255,.1);
     padding-top: 30px;
     max-width: 1500px;
     min-height: 100vh;
     margin:20px auto;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
-
+*/
 }
 #maker:hover {
     -webkit-transform:scale(1.05); /* Safari a Chrome */
@@ -97,6 +111,7 @@ p {
     -ms-transform:scale(1.05);     /* IE */
     -o-transform:scale(1.05);      /* Opera */
     transform:scale(1.05);
+    transition:0.5s cubic-bezier(0.2, 0.57, 0.36, 1.36);
 }
 #maker1:hover {
     -webkit-transform:scale(1.05); /* Safari a Chrome */
@@ -104,6 +119,7 @@ p {
     -ms-transform:scale(1.05);     /* IE */
     -o-transform:scale(1.05);      /* Opera */
     transform:scale(1.05);
+    transition:0.5s cubic-bezier(0.2, 0.57, 0.36, 1.36);
 }
 #maker2:hover {
     -webkit-transform:scale(1.05); /* Safari a Chrome */
@@ -111,6 +127,7 @@ p {
     -ms-transform:scale(1.05);     /* IE */
     -o-transform:scale(1.05);      /* Opera */
     transform:scale(1.05);
+    transition:0.5s cubic-bezier(0.2, 0.57, 0.36, 1.36);
 }
 #maker3:hover {
     -webkit-transform:scale(1.05); /* Safari a Chrome */
@@ -118,6 +135,7 @@ p {
     -ms-transform:scale(1.05);     /* IE */
     -o-transform:scale(1.05);      /* Opera */
     transform:scale(1.05);
+    transition:0.5s cubic-bezier(0.2, 0.57, 0.36, 1.36);
 }
 body{
     background-image: url(../img/bgmars.jpg);
@@ -133,18 +151,32 @@ body{
     background-color: rgba(255,255,255,.2);
     overflow: hidden;
     border: 2px solid rgba(255,255,255,.2);
-    margin: 0;
+
+    position:absolute;
+    left:50%;top:0;
+    margin-left:-480px; /* negative margin equal to half the width */
+    width:960px;
 }
 
 /* Style the links inside the navigation bar */
 .menu a {
     float: left;
+
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 30px;
     text-decoration: none;
     font-size: 17px;
+
+}
+#menu li {
+    float: left;
+    display: inline-block;
+    margin: auto;
+}
+#vnutro{
+    margin-left: 170px;
 }
 
 /* Change the color of links on hover */
@@ -167,13 +199,15 @@ body{
     border-radius: 15px;
     background-color: rgba(255,255,255,.2);
     margin: 100px auto;
-    width: 90%;
+    width: 950px;
     text-align: center;
     height: 1670px;
 }
 
 #video{
+    padding-top: 80px;
     text-align: center;
+    margin-left: 0 auto;
 
 }
 
