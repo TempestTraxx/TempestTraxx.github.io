@@ -7,6 +7,7 @@ h1 {
     font-size: 2em;
     font-weight: 300;
 }
+
 p {
     margin: 0 auto;
     width: 390px;
@@ -193,7 +194,7 @@ body{
 }
 
 
-#elon{
+#elontext{
     font-family: "Trebuchet MS", sans-serif;
     font-size: larger;
     border: 5px solid rgba(255,255,255,.2);
@@ -202,7 +203,8 @@ body{
     margin: 100px auto;
     width: 950px;
     text-align: center;
-    height: 1670px;
+    height: 1550px;
+    word-spacing: -1px;
 }
 
 #video{
@@ -226,6 +228,7 @@ body{
     width: 180px;
     height: 180px;
     display: block;
+    float: left;
     margin: 0 auto;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -234,3 +237,18 @@ body{
 #pelon{
     padding-top: 25px;
 }
+
+#ocestetext{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: larger;
+    border: 5px solid rgba(255,255,255,.2);
+    border-radius: 15px;
+    background-color: rgba(255,255,255,.2);
+    width: 950px;
+    height: 510px;
+    text-align: center;
+    margin: 50px auto;
+    word-spacing: -1px;
+}
+
+
