@@ -20,33 +20,33 @@ p {
 }
 
 #maker{
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,.4);
     font-family: "Raleway", sans-serif;
     float: inherit;
     list-style-type: none;
     margin: 100px auto;
     width: 300px;
     height: 125px;
-    border: 5px solid rgba(255,255,255,.2);
+    border: 5px solid rgba(255,255,255,.4);
     border-radius: 15px;
     text-align: right;
     transition:0.5s cubic-bezier(0.2, 0.57, 0.36, 1.36);
 }
 #maker1{
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,.4);
     font-family: "Trebuchet MS", sans-serif;
     float: left;
     list-style-type: none;
     margin: -90px 5px;
     width: 300px;
     height: 125px;
-    border: 5px solid rgba(255,255,255,.2);
+    border: 5px solid rgba(255,255,255,.4);
     border-radius: 15px;
     text-align: right;
     transition:0.5s cubic-bezier(0.2, 0.57, 0.36, 1.36);
 }
 #maker2{
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,.4);
     font-family: "Trebuchet MS", sans-serif;
     float: left;
 
@@ -54,31 +54,31 @@ p {
     margin: -90px 325px;
     width: 300px;
     height: 125px;
-    border: 5px solid rgba(255,255,255,.2);
+    border: 5px solid rgba(255,255,255,.4);
     border-radius: 15px;
     text-align: right;
     transition:0.5s cubic-bezier(0.2, 0.57, 0.36, 1.36);
 
 }
 #maker3{
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,.4);
     font-family: "Trebuchet MS", sans-serif;
     float: right;
     list-style-type: none;
     margin: -90px 5px;
     width: 300px;
     height: 125px;
-    border: 5px solid rgba(255,255,255,.2);
+    border: 5px solid rgba(255,255,255,.4);
     border-radius: 15px;
     text-align: right;
     transition:0.5s cubic-bezier(0.2, 0.57, 0.36, 1.36);
 }
 #text{
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,.4);
     width: 950px;
     margin: 150px auto;
     height: 400px;
-    border: 5px solid rgba(255,255,255,.2);
+    border: 5px solid rgba(255,255,255,.4);
     border-radius: 15px;
     font-family: "Trebuchet MS", sans-serif;
     font-size: larger;}
@@ -149,9 +149,9 @@ body{
 
 /* Add a black background color to the top navigation */
 .menu {
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,.4);
     overflow: hidden;
-    border: 2px solid rgba(255,255,255,.2);
+    border: 2px solid rgba(255,255,255,.4);
 
     position:absolute;
     left:50%;top:0;
@@ -164,7 +164,7 @@ body{
 .menu a {
     float: left;
     display: block;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     padding: 14px 30px;
     text-decoration: none;
@@ -181,14 +181,17 @@ body{
 
 /* Change the color of links on hover */
 .menu a:hover {
-    background-color: rgba(255,255,255,.2);
-    color: #ffffff;
+    background-color: rgba(255,255,255,.4);
+    color: #000000;
+
+
 }
 
 /* Add a color to the active/current link */
 .menu a.active {
-    background-color: rgba(255,255,255,.15);
-    color: #ffffff;
+    background-color: rgba(255,255,255,.2);
+    color: #000000;
+    font-weight: bold;
 }
 #video{
     padding-top: 100px;
@@ -198,9 +201,9 @@ body{
 #elontext{
     font-family: "Trebuchet MS", sans-serif;
     font-size: larger;
-    border: 5px solid rgba(255,255,255,.2);
+    border: 5px solid rgba(255,255,255,.4);
     border-radius: 15px;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,.4);
     margin: 100px auto;
     width: 950px;
     text-align: center;
@@ -208,7 +211,7 @@ body{
     word-spacing: -1px;
 }
 #elonobrazok{
-    border-radius: 50%;
+    border-radius: 48%;
     width: 180px;
     height: 180px;
     display: block;
@@ -231,9 +234,9 @@ body{
 #ocestetext{
     font-family: "Trebuchet MS", sans-serif;
     font-size: larger;
-    border: 5px solid rgba(255,255,255,.2);
+    border: 5px solid rgba(255,255,255,.4);
     border-radius: 15px;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,.4);
     width: 950px;
     height: 510px;
     text-align: center;
