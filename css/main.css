@@ -244,6 +244,7 @@ body{
     word-spacing: -1px;
 }
 #elontext a:link{
+    color: #4b0a4b;
     background-color: transparent;
     text-decoration: none;
 }
