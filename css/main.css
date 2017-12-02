@@ -163,14 +163,12 @@ body{
 /* Style the links inside the navigation bar */
 .menu a {
     float: left;
-
     display: block;
     color: #ffffff;
     text-align: center;
     padding: 14px 30px;
     text-decoration: none;
     font-size: 20px;
-
 }
 #menu li {
     float: left;
@@ -179,7 +177,6 @@ body{
 }
 #vnutro{
     margin-left: 170px;
-
 }
 
 /* Change the color of links on hover */
@@ -193,8 +190,11 @@ body{
     background-color: rgba(255,255,255,.15);
     color: #ffffff;
 }
-
-
+#video{
+    padding-top: 100px;
+    text-align: center;
+    margin-left: auto;
+}
 #elontext{
     font-family: "Trebuchet MS", sans-serif;
     font-size: larger;
@@ -204,36 +204,25 @@ body{
     margin: 100px auto;
     width: 950px;
     text-align: center;
-    height: 1550px;
+    height: auto;
     word-spacing: -1px;
 }
-
-#video{
-    padding-top: 100px;
-    text-align: center;
-    margin-left: 0 auto;
-
-}
-
 #elonobrazok{
     border-radius: 50%;
     width: 180px;
     height: 180px;
     display: block;
     margin: 0 auto;
-
-
 }
 #elonobrazok2{
-    border-radius: 50%;
     width: 180px;
     height: 180px;
     display: block;
     float: left;
     margin: 0 auto;
+    padding-right: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
-
 }
 #pelon{
     padding-top: 25px;
@@ -251,5 +240,20 @@ body{
     margin: 50px auto;
     word-spacing: -1px;
 }
-
-
+#elontext a:link{
+    background-color: transparent;
+    text-decoration: none;
+}
+#elontext a:visited{
+    color: rgba(0, 61, 61, 0.55);
+    backround-color: transparent;
+    text-decoration: none;
+}
+#elontext a:hover{
+    text-decoration: underline;
+}
+#elontext a:active{
+    color: rgba(255,177,0,0.25);
+    background-color: transparent;
+    text-decoration: underline;
+}
