@@ -8,6 +8,11 @@ h1 {
     font-weight: 300;
 }
 
+a{
+    text-decoration: none;
+    color: #942818;
+}
+
 
 p {
     margin: 0 auto;
@@ -207,7 +212,7 @@ body{
     margin: 100px auto;
     width: 950px;
     text-align: center;
-    height: auto;
+    height: 2300px;
     word-spacing: -1px;
 }
 #elonobrazok{
@@ -238,7 +243,7 @@ body{
     border-radius: 15px;
     background-color: rgba(255,255,255,.4);
     width: 950px;
-    height: 510px;
+    height: 1140px;
     text-align: center;
     margin: 50px auto;
     word-spacing: -1px;
