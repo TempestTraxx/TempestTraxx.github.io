@@ -98,6 +98,18 @@ p{
     text-align: justify;
 }
 
+#maker h2{
+    text-align: right;
+}
+#maker1 h2{
+    text-align: right;
+}
+#maker2 h2{
+    text-align: right;
+}
+#maker3 h2{
+    text-align: right;
+}
 
 .img-head{
     width: 30%;
