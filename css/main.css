@@ -160,16 +160,15 @@ body{
     background-color: rgba(255,255,255,.4);
     overflow: hidden;
     border: 2px solid rgba(255,255,255,.4);
-
     position:absolute;
     left:50%;top:0;
     margin-left:-480px; /* negative margin equal to half the width */
     width:960px;
-    line-height: 60px;
+    line-height: 30px;
 }
 
 /* Style the links inside the navigation bar */
-.menu a {
+.vlastnaPad {
     float: left;
     display: block;
     color: #000000;
@@ -185,6 +184,8 @@ body{
 }
 #vnutro{
     margin-left: 170px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Change the color of links on hover */
@@ -196,11 +197,18 @@ body{
 }
 
 /* Add a color to the active/current link */
-.menu a.active {
+#active {
     background-color: rgba(255,255,255,.2);
     color: #000000;
     font-weight: bold;
 }
+.obrazok{
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
 #video{
     padding-top: 100px;
     text-align: center;
@@ -322,3 +330,4 @@ body{
 .odkazy{
     float: left;
 }
+
