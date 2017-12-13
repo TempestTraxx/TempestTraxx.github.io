@@ -215,7 +215,7 @@ body{
     margin: 100px auto;
     width: 950px;
     text-align: center;
-    height: 2385px;
+    height: 3000px;
     word-spacing: -1px;
 }
 #elonobrazok{
@@ -264,7 +264,30 @@ body{
 #elontext a:hover{
     text-decoration: underline;
 }
+
 #elontext a:active{
+    color: rgba(255,177,0,0.25);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#ocestetext a:link{
+    color: #4b0a4b;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#ocestetext a:visited{
+    color: rgba(0, 61, 61, 0.55);
+    backround-color: transparent;
+    text-decoration: none;
+}
+
+#ocestetext a:hover{
+    text-decoration: underline;
+}
+
+#ocestetext a:active{
     color: rgba(255,177,0,0.25);
     background-color: transparent;
     text-decoration: underline;
@@ -273,18 +296,29 @@ body{
 .linkobrazok{
     height: 180px;
     width: 180px;
-
 }
-.footer{
 
+.footer{
     text-align: center;
     font-family: "Trebuchet MS", sans-serif;
-
 }
+
 .footerdiv{
     border: 3px solid rgba(255,255,255,.4);
     background-color: rgba(255,255,255,.4);
     width: 960px;
     margin: auto;
+}
 
+#obsah {
+    background-color: rgba(255,255,255,.3);
+    overflow: hidden;
+    border: 2px solid rgba(255,255,255,.4);
+    width: 250px;
+    margin-left: 280px;
+    margin-top: 20px;
+}
+
+.odkazy{
+    float: left;
 }
