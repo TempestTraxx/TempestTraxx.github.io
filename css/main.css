@@ -331,3 +331,21 @@ body{
     float: left;
 }
 
+#elontext ul{
+    padding-left: 20px;
+    width: 370px;
+    margin: auto;
+}
+
+#elontext li{
+    text-align: left;
+}
+
+#elontext ol{
+    width: 200px;
+    margin: auto auto auto 280px;
+}
+
+.zoznam{
+
+}
