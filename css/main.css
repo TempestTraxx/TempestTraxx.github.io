@@ -165,7 +165,7 @@ body{
     left:50%;top:0;
     margin-left:-480px; /* negative margin equal to half the width */
     width:960px;
-    line-height: 57px;
+    line-height: 60px;
 }
 
 /* Style the links inside the navigation bar */
