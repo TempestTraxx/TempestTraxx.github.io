@@ -278,7 +278,6 @@ body{
 }
 #elontext a:visited{
     color: rgba(0, 61, 61, 0.55);
-    backround-color: transparent;
     text-decoration: none;
 }
 #elontext a:hover{
@@ -299,7 +298,6 @@ body{
 
 #ocestetext a:visited{
     color: rgba(0, 61, 61, 0.55);
-    backround-color: transparent;
     text-decoration: none;
 }
 
