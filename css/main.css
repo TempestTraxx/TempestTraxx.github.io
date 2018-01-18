@@ -159,13 +159,14 @@ p{
     transition:0.5s cubic-bezier(0.2, 0.57, 0.36, 1.36);
 }
 body{
-    background-image: url(../img/bgmars.jpg);
+  /*  background-image: url(../img/bgmars.jpg);*/
     background-attachment: fixed;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.85);
     font-family: Raleway, Open Sans, Droid Sans, Roboto,arial, sans-serif;
     margin: 0;
 }
+
 
 /* Add a black background color to the top navigation */
 .menu {
@@ -255,6 +256,7 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 #pelon{
     padding-top: 25px;
 }
@@ -270,9 +272,11 @@ body{
     text-align: center;
     margin: 50px auto;
     word-spacing: -1px;
+
 }
 #elontext a:link{
-    color: #4b0a4b;
+    color: green;
+    font-weight: bold;
     background-color: transparent;
     text-decoration: none;
 }
@@ -345,6 +349,7 @@ body{
     padding-left: 20px;
     width: 370px;
     margin: auto;
+
 }
 
 #elontext li{
