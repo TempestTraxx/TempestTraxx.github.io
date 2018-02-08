@@ -1,5 +1,5 @@
 header {
-    background-image: url("../img/mars_cover2.png");
+    background-image: url("../img/mars_cover3.png");
     width: auto;
     height: 500px;
     background-size: cover;
@@ -48,6 +48,15 @@ nav {
     font-size: 14px;
     color: #878787;
 }
+.sectionText2 {
+    width: 600px;
+    display: inherit;
+    padding: 50px;
+    font-size: 14px;
+    color: #878787;
+    text-align: justify;
+
+}
 
 #falcon {
     width: 30%;
@@ -56,6 +65,7 @@ nav {
     background: url("../img/falconRocket.png") no-repeat center;
     background-size: 30px;
     margin: 0 8%;
+
 }
 
 #falconHeavy {
@@ -65,6 +75,42 @@ nav {
     margin: 0 8%;
     background: url("../img/falconHeavy.png") no-repeat center;
     background-size: 90px;
+
+}
+#tesla1 {
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    background: url("../img/TeslaS.png") no-repeat center;
+    background-size: 450px;
+    margin: 0 8%;
+
+}
+#tesla2 {
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    background: url("../img/teslax.png") no-repeat center;
+    background-size: 450px 340px;
+    margin: 0 8%;
+
+}
+#boring1 {
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    background: url("../img/theboringcompany.png") no-repeat center;
+    background-size: 450px;
+    margin: 0 8%;
+
+}
+#boring2 {
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    background: url("../img/theboringhat.jpg") no-repeat center;
+    background-size: 300px;
+    margin: 0 8%;
 
 }
 
@@ -95,6 +141,10 @@ nav {
     }
 
     .sectionText {
+        font-size: 1.3vw;
+        width: 50%;
+    }
+    .sectionText2 {
         font-size: 1.3vw;
         width: 50%;
     }
