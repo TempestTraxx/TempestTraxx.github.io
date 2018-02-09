@@ -114,6 +114,23 @@ nav {
 
 }
 
+#elon{
+    width: 20%;
+    height: 350px;
+    display: inline-block;
+    background: url("../img/elon3.png") no-repeat center;
+    background-size: 450px;
+    margin: 0 8%;
+}
+#spacex{
+    width: 40%;
+    height: 350px;
+    display: inline-block;
+    background: url("../img/spacex.png") no-repeat center;
+    background-size: 350px;
+    margin: 0 5%;
+}
+
 /*CLASSES FOR ADAPTIVE DESIGN*/
 @media (max-width: 1025px) {
 
@@ -156,6 +173,16 @@ nav {
 
     #falconHeavy {
         background-size: 8.5vw;
+        height: 50vw;
+    }
+
+    #elon {
+        background-size: 30vw;
+        height: 50vw;
+    }
+
+    #spacex {
+        background-size: 30vw;
         height: 50vw;
     }
 }
