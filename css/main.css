@@ -158,12 +158,14 @@ nav {
     margin: 0 5%;
 }
 #alex{
-    width: 50%;
+    width: 20%;
     height: 300px;
     display: inline-block;
+    position: absolute;
+    left: 33%;
     background: url("../img/alex.png") no-repeat center;
-    background-size: 300px;
-    margin: 0 5%;
+    background-size: 350px;
+    margin:  0 5%;
 }
 /*CLASSES FOR ADAPTIVE DESIGN*/
 @media (max-width: 1025px) {
