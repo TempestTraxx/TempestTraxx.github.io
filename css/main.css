@@ -70,6 +70,16 @@ nav {
     margin: 0 8%;
 
 }
+#logo2 {
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    background: url("../img/spacexlogo.png") no-repeat right;
+    background-size: 700px;
+
+    margin: 0 8%;
+
+}
 
 
 
