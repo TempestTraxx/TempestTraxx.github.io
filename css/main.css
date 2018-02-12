@@ -165,6 +165,38 @@ nav {
     left: 33%;
     background: url("../img/alex.png") no-repeat center;
     background-size: 350px;
+    margin:  0 5%;}
+#alex1{
+    width: 10%;
+    height: 200px;
+    display: inline-block;
+
+    background: url("../img/alex.png") no-repeat center;
+    background-size: 250px;
+    margin:  0 5%;}
+#matej{
+    width: 10%;
+    height: 200px;
+    display: inline-block;
+
+    background: url("../img/matrez.png") no-repeat center;
+    background-size: 250px;
+    margin:  0 5%;}
+#sebo{
+    width: 10%;
+    height: 200px;
+    display: inline-block;
+
+    background: url("../img/sebo.png") no-repeat center;
+    background-size: 250px;
+    margin:  0 5%;}
+#peto{
+    width: 10%;
+    height: 200px;
+    display: inline-block;
+
+    background: url("../img/warn.png") no-repeat center;
+    background-size: 150px;
     margin:  0 5%;
 }
 /*CLASSES FOR ADAPTIVE DESIGN*/
@@ -223,6 +255,22 @@ nav {
     }
 
     #alex{
+        background-size: 30vw;
+        height:50vw;
+    }
+    #alex1{
+        background-size: 30vw;
+        height:50vw;
+    }
+    #matej{
+        background-size: 30vw;
+        height:50vw;
+    }
+    #sebo{
+        background-size: 30vw;
+        height:50vw;
+    }
+    #peto {
         background-size: 30vw;
         height:50vw;
     }
