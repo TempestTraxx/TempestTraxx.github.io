@@ -47,7 +47,10 @@ nav {
     padding: 50px;
     font-size: 14px;
     color: #878787;
+    text-align: justify;
+
 }
+
 .sectionText2 {
     width: 600px;
     display: inherit;
@@ -57,6 +60,20 @@ nav {
     text-align: justify;
 
 }
+
+#logo {
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    background: url("../img/logo.png") no-repeat center;
+    background-size: 350px;
+    margin: 0 8%;
+
+}
+
+
+
+
 
 #falcon {
     width: 30%;
@@ -115,8 +132,8 @@ nav {
 }
 
 #elon{
-    width: 35%;
-    height: 350px;
+    width: 30%;
+    height: 300px;
     display: inline-block;
     background: url("../img/elon5.png") no-repeat center;
     background-size: 300px;
