@@ -70,6 +70,7 @@ nav {
     margin: 0 8%;
 
 }
+
 #logo2 {
     width: 30%;
     height: 300px;
@@ -80,10 +81,6 @@ nav {
     margin: 0 8%;
 
 }
-
-
-
-
 
 #falcon {
     width: 30%;
@@ -104,6 +101,7 @@ nav {
     background-size: 90px;
 
 }
+
 #tesla1 {
     width: 30%;
     height: 300px;
@@ -113,6 +111,7 @@ nav {
     margin: 0 8%;
 
 }
+
 #tesla2 {
     width: 30%;
     height: 300px;
@@ -122,6 +121,7 @@ nav {
     margin: 0 8%;
 
 }
+
 #boring1 {
     width: 30%;
     height: 300px;
@@ -131,6 +131,7 @@ nav {
     margin: 0 8%;
 
 }
+
 #boring2 {
     width: 30%;
     height: 300px;
@@ -141,7 +142,7 @@ nav {
 
 }
 
-#elon{
+#elon {
     width: 30%;
     height: 300px;
     display: inline-block;
@@ -149,7 +150,8 @@ nav {
     background-size: 300px;
     margin: 0 8%;
 }
-#spacex{
+
+#spacex {
     width: 30%;
     height: 350px;
     display: inline-block;
@@ -157,7 +159,8 @@ nav {
     background-size: 300px;
     margin: 0 5%;
 }
-#alex{
+
+#alex {
     width: 20%;
     height: 300px;
     display: inline-block;
@@ -165,40 +168,49 @@ nav {
     left: 33%;
     background: url("../img/alex.png") no-repeat center;
     background-size: 350px;
-    margin:  0 5%;}
-#alex1{
+    margin: 0 5%;
+}
+
+#alex1 {
     width: 10%;
     height: 200px;
     display: inline-block;
 
     background: url("../img/alex.png") no-repeat center;
     background-size: 250px;
-    margin:  0 5%;}
-#matej{
+    margin: 0 5%;
+}
+
+#matej {
     width: 10%;
     height: 200px;
     display: inline-block;
 
     background: url("../img/matrez.png") no-repeat center;
     background-size: 250px;
-    margin:  0 5%;}
-#sebo{
+    margin: 0 5%;
+}
+
+#sebo {
     width: 10%;
     height: 200px;
     display: inline-block;
 
     background: url("../img/sebo.png") no-repeat center;
     background-size: 250px;
-    margin:  0 5%;}
-#peto{
+    margin: 0 5%;
+}
+
+#peto {
     width: 10%;
     height: 200px;
     display: inline-block;
 
     background: url("../img/warn.png") no-repeat center;
     background-size: 150px;
-    margin:  0 5%;
+    margin: 0 5%;
 }
+
 /*CLASSES FOR ADAPTIVE DESIGN*/
 @media (max-width: 1025px) {
 
@@ -229,6 +241,7 @@ nav {
         font-size: 1.3vw;
         width: 50%;
     }
+
     .sectionText2 {
         font-size: 1.3vw;
         width: 50%;
@@ -254,25 +267,29 @@ nav {
         height: 50vw;
     }
 
-    #alex{
+    #alex {
         background-size: 30vw;
-        height:50vw;
+        height: 50vw;
     }
-    #alex1{
+
+    #alex1 {
         background-size: 30vw;
-        height:50vw;
+        height: 50vw;
     }
-    #matej{
+
+    #matej {
         background-size: 30vw;
-        height:50vw;
+        height: 50vw;
     }
-    #sebo{
+
+    #sebo {
         background-size: 30vw;
-        height:50vw;
+        height: 50vw;
     }
+
     #peto {
         background-size: 30vw;
-        height:50vw;
+        height: 50vw;
     }
 }
 
