@@ -1,35 +1,34 @@
-
-
 /*#headerMenu {*/
 
 /*}*/
 
 /*header ul {*/
-    /*list-style-type: none;*/
-    /*padding-left: 20px;*/
+/*list-style-type: none;*/
+/*padding-left: 20px;*/
 /*}*/
 
 /*header li {*/
-    /*display: inline-block;*/
-    /*height: 50px;*/
+/*display: inline-block;*/
+/*height: 50px;*/
 /*}*/
 
 /*header a {*/
-    /*text-decoration: none;*/
-    /*color: #c1c1c3;*/
-    /*padding: 20px;*/
+/*text-decoration: none;*/
+/*color: #c1c1c3;*/
+/*padding: 20px;*/
 /*}*/
 
 /*header nav {*/
-    /*position: absolute;*/
-    /*bottom: 0;*/
-    /*padding-left: 0;*/
+/*position: absolute;*/
+/*bottom: 0;*/
+/*padding-left: 0;*/
 /*}*/
 
 #menu {
     margin-top: 20px;
     margin-left: 20px;
 }
+
 @media (max-width: 820px) {
     li a {
         min-width: 16vw !important;
@@ -67,6 +66,11 @@ li a {
     border-radius: 50px;
 }
 
+li a#projekty {
+    min-width: 192px;
+
+}
+
 /*Hover state pre top level linky*/
 li:hover a {
     /*background: #19c589;*/
@@ -78,12 +82,38 @@ li:hover ul a {
     color: #2f3036;
     height: 40px;
     line-height: 40px;
+
+}
+
+li:hover ul a#projekty1 {
+    min-width: 152px;
+}
+
+li:hover ul a#projekty2 {
+    min-width: 152px;
+}
+
+li:hover ul a#projekty3 {
+    min-width: 152px;
 }
 
 /*Hover state pre dropdown linky*/
 li:hover ul a:hover {
-    background: #19c589;
+    background: #9a0d04;
     color: #fff;
+
+}
+
+li:hover ul a:hover#projekty1 {
+    min-width: 152px;
+}
+
+li:hover ul a:hover#projekty2 {
+    min-width: 152px;
+}
+
+li:hover ul a:hover#projekty3 {
+    min-width: 152px;
 }
 
 /*---------------------END OF STYLE FOR MENU LINKS---------------------*/
