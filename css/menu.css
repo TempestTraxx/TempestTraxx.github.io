@@ -1,0 +1,137 @@
+
+
+/*#headerMenu {*/
+
+/*}*/
+
+/*header ul {*/
+    /*list-style-type: none;*/
+    /*padding-left: 20px;*/
+/*}*/
+
+/*header li {*/
+    /*display: inline-block;*/
+    /*height: 50px;*/
+/*}*/
+
+/*header a {*/
+    /*text-decoration: none;*/
+    /*color: #c1c1c3;*/
+    /*padding: 20px;*/
+/*}*/
+
+/*header nav {*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*padding-left: 0;*/
+/*}*/
+
+#menu {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+@media (max-width: 820px) {
+    li a {
+        min-width: 16vw !important;
+    }
+}
+
+/*vymazanie list stylingu (hlupe gulicky pred tagom ul)*/
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+}
+
+/*horizontalny list s medzerami*/
+li {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+/*---------------------STYLE FOR MENU LINKS---------------------*/
+
+/*Styl pre menu linky*/
+li a {
+    display: block;
+    min-width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #000000;
+    background: #ffffff;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+/*Hover state pre top level linky*/
+li:hover a {
+    /*background: #19c589;*/
+}
+
+/*Style pre dropdown linky*/
+li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+
+/*Hover state pre dropdown linky*/
+li:hover ul a:hover {
+    background: #19c589;
+    color: #fff;
+}
+
+/*---------------------END OF STYLE FOR MENU LINKS---------------------*/
+
+/*---------------------STYLE FOR DROPDOWN MENU LINKS---------------------*/
+
+/*Skry dropdown linky az kym niesu potrebne*/
+li ul {
+    display: none;
+}
+
+/*Urob dropdown linky vertikalne*/
+li ul li {
+    display: block;
+    float: none;
+}
+
+/*Zabrani text wrappingu*/
+li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+
+/*Ukaze dropdown na hover*/
+ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+}
+
+/*---------------------END OF STYLE FOR DROPDOWN MENU LINKS---------------------*/
+
+/*Adaptivny dizajn*/
+@media screen and (max-width: 760px) {
+    #menu {
+        margin-left: 0;
+    }
+
+    /*Urobi dropdown linky inline*/
+    ul {
+        position: static;
+    }
+
+    /*Urobi vertikalne medzery*/
+    li {
+        margin-bottom: 1px;
+    }
+
+    ul li, li a {
+        width: 100%;
+    }
+}
