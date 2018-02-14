@@ -15,7 +15,8 @@ header {
     width: 22%;
     display: inline-block;
     text-align: right;
-    vertical-align: 80px;
+    vertical-align: top;
+    padding-top: 45px;
     color: #5a5a5a;
 }
 
@@ -34,23 +35,20 @@ header {
 
 #logo {
     width: 30%;
-    height: 300px;
+    height: 350px;
     display: inline-block;
     background: url("../img/logo.png") no-repeat center;
     background-size: 350px;
     margin: 0 8%;
-
 }
 
 #logo2 {
     width: 30%;
-    height: 300px;
+    height: 350px;
     display: inline-block;
-    background: url("../img/spacexlogo.png") no-repeat right;
-    background-size: 700px;
-
+    background: url("../img/planetEarth.png") no-repeat center;
+    background-size: 285px;
     margin: 0 8%;
-
 }
 
 #falcon {
@@ -60,7 +58,6 @@ header {
     background: url("../img/falconRocket.png") no-repeat center;
     background-size: 30px;
     margin: 0 8%;
-
 }
 
 #falconHeavy {
@@ -70,7 +67,6 @@ header {
     margin: 0 8%;
     background: url("../img/falconHeavy.png") no-repeat center;
     background-size: 90px;
-
 }
 
 #tesla1 {
@@ -78,9 +74,8 @@ header {
     height: 300px;
     display: inline-block;
     background: url("../img/TeslaS.png") no-repeat center;
-    background-size: 450px;
+    background-size: 300px;
     margin: 0 8%;
-
 }
 
 #tesla2 {
@@ -88,9 +83,8 @@ header {
     height: 300px;
     display: inline-block;
     background: url("../img/teslax.png") no-repeat center;
-    background-size: 450px 340px;
+    background-size: 300px;
     margin: 0 8%;
-
 }
 
 #boring1 {
@@ -98,9 +92,8 @@ header {
     height: 300px;
     display: inline-block;
     background: url("../img/theboringcompany.png") no-repeat center;
-    background-size: 450px;
+    background-size: 31vw;
     margin: 0 8%;
-
 }
 
 #boring2 {
@@ -108,14 +101,13 @@ header {
     height: 300px;
     display: inline-block;
     background: url("../img/theboringhat.jpg") no-repeat center;
-    background-size: 300px;
+    background-size: 20vw;
     margin: 0 8%;
-
 }
 
 #elon {
     width: 30%;
-    height: 300px;
+    height: 350px;
     display: inline-block;
     background: url("../img/elon5.png") no-repeat center;
     background-size: 300px;
@@ -128,7 +120,7 @@ header {
     display: inline-block;
     background: url("../img/spacex.png") no-repeat center;
     background-size: 300px;
-    margin: 0 5%;
+    margin: 0 8%;
 }
 
 #alex1 {
@@ -199,77 +191,55 @@ header {
     }
 
     #falcon {
-        background-size: 3vw;
-        height: 50vw;
+        background-size: 28px;
+        height: 400px;
     }
 
     #falconHeavy {
-        background-size: 8.5vw;
-        height: 50vw;
+        background-size: 80px;
+        height: 400px;
     }
 
-    #elon {
-        background-size: 30vw;
-        height: 50vw;
+    #elon, #spacex {
+        background-size: 200px;
+        height: 230px;
     }
 
-    #spacex {
-        background-size: 30vw;
-        height: 50vw;
-    }
-
-    #alex1 {
+    #alex1, #matej, #sebo, #peto {
         background-size: 100%;
         height: 300px;
         width: 300px;
         margin: 3%;
     }
 
-    #matej {
-        background-size: 100%;
-        height: 300px;
-        width: 300px;
-        margin: 3%;
+    #logo {
+        height: 230px;
+        background-size: 250px;
     }
 
-    #sebo {
-        background-size: 100%;
-        height: 300px;
-        width: 300px;
-        margin: 3%;
+    #logo2 {
+        height: 230px;
+        background-size: 200px;
     }
 
-    #peto {
-        background-size: 100%;
-        height: 300px;
-        width: 300px;
-        margin: 3%;
+    #tesla1, #tesla2 {
+        height: 240px;
+        background-size: 230px;
+    }
+
+    #boring1 {
+        height: 230px;
+        background-size: 235px;
+    }
+
+    #boring2 {
+        height: 230px;
+        background-size: 190px;
     }
 }
 
 @media (max-width: 760px) {
-    #alex1 {
-        background-size: 235px;
-        height: 250px;
-        width: 250px;
-        margin: 3%;
-    }
-
-    #matej {
-        background-size: 235px;
-        height: 250px;
-        width: 250px;
-        margin: 3%;
-    }
-
-    #sebo {
-        background-size: 235px;
-        height: 250px;
-        width: 250px;
-        margin: 3%;
-    }
-
-    #peto {
+    #alex1, #matej, #sebo, #peto {
         background-size: 235px;
         height: 250px;
         width: 250px;
@@ -279,13 +249,48 @@ header {
     #falconHeavy {
         background-size: 70px;
         height: 350px;
-        width: 235px;
+        width: 30%;
     }
 
     #falcon {
         background-size: 25px;
         height: 350px;
-        width: 235px;
+        width: 30%;
+    }
+
+    #logo {
+        height: 130px;
+        background-size: 150px;
+    }
+
+    #logo2 {
+        height: 130px;
+        background-size: 120px;
+    }
+
+    #elon {
+        height: 130px;
+        background-size: 120px;
+    }
+
+    #spacex {
+        height: 130px;
+        background-size: 120px;
+    }
+
+    #tesla1, #tesla2 {
+        height: 140px;
+        background-size: 130px;
+    }
+
+    #boring1 {
+        height: 140px;
+        background-size: 30vw;
+    }
+
+    #boring2 {
+        height: 140px;
+        background-size: 15vw;
     }
 }
 
@@ -303,6 +308,42 @@ header {
         padding: 10px;
         text-align: center;
         box-sizing: border-box;
+    }
+
+    #falcon, #falconHeavy {
+        width: 50%;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #logo, #logo2, #elon, #spacex {
+        height: 150px;
+        width: 50%;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #tesla1, #tesla2 {
+        background-size: 150px;
+        width: 50%;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #boring1 {
+        height: 200px;
+        background-size: 220px;
+        width: 50%;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #boring2 {
+        height: 200px;
+        background-size: 150px;
+        width: 50%;
+        display: block;
+        margin: 20px auto;
     }
 }
 
@@ -348,6 +389,40 @@ header {
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
     left: 0;
     right: 0;
+}
+
+.hvr-outline-in-bubble {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+}
+
+.hvr-outline-in-bubble:before {
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    border: #808080 solid 4px;
+    border-radius: 180px;
+    top: -16px;
+    right: -16px;
+    bottom: -16px;
+    left: -16px;
+    opacity: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: top, right, bottom, left;
+    transition-property: top, right, bottom, left;
+}
+
+.hvr-outline-in-bubble:hover:before, .hvr-outline-in-bubble:focus:before, .hvr-outline-in-bubble:active:before {
+    top: -8px;
+    right: -8px;
+    bottom: -8px;
+    left: -8px;
+    opacity: 1;
 }
 
 .hvr-outline-in {
