@@ -99,7 +99,7 @@ li:hover ul a#projekty3 {
 
 /*Hover state pre dropdown linky*/
 li:hover ul a:hover {
-    background: #9a0d04;
+    background: #cdcdcd;
     color: #fff;
 
 }
