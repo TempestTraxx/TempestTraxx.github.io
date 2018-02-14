@@ -29,6 +29,14 @@ header {
     text-align: justify;
 }
 
+.footer {
+    width: 100%;
+    display: inline-block;
+
+    font-size: 12px;
+    color: #878787;
+    text-align: center;
+}
 #firstSection {
     margin-top: 65px;
 }
@@ -197,6 +205,10 @@ td:hover{
     }
 
     .sectionText2 {
+        font-size: 1.3vw;
+        width: 50%;
+    }
+    .footer {
         font-size: 1.3vw;
         width: 50%;
     }
