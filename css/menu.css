@@ -26,7 +26,8 @@
 
 #menu {
     margin-top: 20px;
-    margin-left: 20px;
+    width: 100vw;
+    text-align: center;
 }
 
 @media (max-width: 820px) {
@@ -46,7 +47,6 @@ ul {
 /*horizontalny list s medzerami*/
 li {
     display: inline-block;
-    float: left;
     margin-right: 10px;
 }
 

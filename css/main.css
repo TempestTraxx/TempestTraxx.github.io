@@ -12,7 +12,7 @@ header {
 }
 
 .sectionTitle {
-    width: 30%;
+    width: 22%;
     display: inline-block;
     text-align: right;
     vertical-align: 80px;
@@ -20,7 +20,7 @@ header {
 }
 
 .sectionText {
-    width: 600px;
+    width: 55%;
     display: inline-block;
     padding: 50px;
     font-size: 14px;
