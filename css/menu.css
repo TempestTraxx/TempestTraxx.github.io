@@ -26,7 +26,7 @@
 
 #menu {
     margin-top: 20px;
-    width: 100vw;
+    width: 100%;
     text-align: center;
 }
 
@@ -159,9 +159,10 @@ ul li a:hover + .hidden, .hidden:hover {
     /*Urobi vertikalne medzery*/
     li {
         margin-bottom: 1px;
+        margin-right: 0;
     }
 
     ul li, li a {
-        width: 100%;
+        width: 99%;
     }
 }
