@@ -171,6 +171,17 @@ header {
     margin: 0 4%;
 }
 
+td,tr,table{
+    text-align: center;
+    vertical-align: middle;
+    height: 25px;
+}
+
+td:hover{
+    background-color: #ededc2;
+}
+
+
 /*CLASSES FOR ADAPTIVE DESIGN*/
 
 @media (max-width: 1025px) {
@@ -382,3 +393,5 @@ header {
     left: -8px;
     opacity: 1;
 }
+
+
