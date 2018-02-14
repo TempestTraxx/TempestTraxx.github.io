@@ -39,6 +39,15 @@ footer {
     color: #878787;
     text-align: center;
 }
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 #firstSection {
     margin-top: 65px;
 }
