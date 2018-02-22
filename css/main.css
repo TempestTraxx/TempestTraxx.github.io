@@ -111,7 +111,7 @@ footer a:hover {
     height: 300px;
     display: inline-block;
     background: url("../img/hyperlogo.png") no-repeat center;
-    background-size: 31vw;
+    background-size: 300px;
     margin: 0 8%;
 }
 
@@ -120,7 +120,7 @@ footer a:hover {
     height: 300px;
     display: inline-block;
     background: url("../img/transpod-pod-transparent.png") no-repeat center;
-    background-size: 20vw;
+    background-size: 300px;
     margin: 0 8%;}
 
 #boring1 {
@@ -128,7 +128,7 @@ footer a:hover {
     height: 300px;
     display: inline-block;
     background: url("../img/theboringcompany.png") no-repeat center;
-    background-size: 31vw;
+    background-size: 340px;
     margin: 0 8%;
 }
 
@@ -137,7 +137,7 @@ footer a:hover {
     height: 300px;
     display: inline-block;
     background: url("../img/theboringhat.png") no-repeat center;
-    background-size: 20vw;
+    background-size: 300px;
     margin: 0 8%;
 }
 
@@ -296,6 +296,11 @@ td:hover{
         height: 230px;
         background-size: 190px;
     }
+
+    #hyper1, #hyper2 {
+        height: 220px;
+        background-size: 230px;
+    }
 }
 
 @media (max-width: 760px) {
@@ -352,6 +357,11 @@ td:hover{
         height: 140px;
         background-size: 15vw;
     }
+
+    #hyper1, #hyper2 {
+        height: 130px;
+        background-size: 130px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -403,6 +413,14 @@ td:hover{
         background-size: 150px;
         width: 50%;
         display: block;
+        margin: 20px auto;
+    }
+
+    #hyper1, #hyper2 {
+        display: block;
+        width: 50%;
+        height: 180px;
+        background-size: 150px;
         margin: 20px auto;
     }
 }
